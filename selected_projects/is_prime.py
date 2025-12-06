@@ -1,3 +1,12 @@
+"""
+File: is_prime.py
+Problem: Check if a number is prime (optimized).
+Author: Sujay Das
+Approach:
+- Handle edge cases (<=1).
+- Check 2 separately, then skip even numbers and test divisors up to sqrt(n).
+- Efficient for reasonably large n (good for interview screening).
+"""
 # Taking input
 num = int(input())
 
